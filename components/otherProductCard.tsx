@@ -12,7 +12,7 @@ interface myComp {
 }
 
 const OtherProductCard: React.FC = () =>{
-    
+  
     return(
         <>
          <div className="flex lg:col-span-2 lg:row-span-2 xSm:col-span-2 justify-center items-end mx-1 xSm:h-[300px] lg:h-[520px] shadow-xl rounded-2xl relative bg-yellow-800">
