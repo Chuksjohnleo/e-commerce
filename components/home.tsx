@@ -5,6 +5,10 @@ import demoImage from './assets/getcookie.png';
 import ProductList from './productList';
 import Services from './services';
 import About from './about';
+import OtherDeals from './otherDeals';
+import OtherInfo from './otherInfo';
+import Footer from './footer';
+// import Fo
 
 function Home(){
     return(
@@ -13,8 +17,8 @@ function Home(){
         <div className='p-2'>
          <section>
            <div className='relative flex justify-center items-end'>
-            <div className='absolute w-[90%] box-border bg-white/80 m-2 p-0 sm:p-2 rounded-xl'>
-             <div className='sm:flex text-[13px] sm:text-xl justify-around gap-2 grid grid-cols-2 w-full m-2 p-2 '>
+            <div className='absolute z-30 w-[90%] box-border backdrop-blur bg-white/50 m-2 p-0 sm:p-2 rounded-xl'>
+             <div className='sm:flex text-[13px] break-words sm:text-xl justify-around gap-1 xSm:gap-2 grid grid-cols-2 w-full xSm:m-2 p-1 xSm:p-2 '>
                 <div>
                   <h1 className='font-bold'>information1</h1>
                   <p>Description</p>
@@ -36,9 +40,14 @@ function Home(){
            </div>
          </section>
          <ProductList />
-         <Services />
-         <About />
+         <div className='md:grid grid-cols-2 items-center'>
+           <Services />
+           <About />
          </div>
+         <OtherDeals />
+         <OtherInfo />
+         </div>
+         <Footer />
         </>
     )
 }

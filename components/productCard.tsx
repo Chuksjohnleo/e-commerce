@@ -34,7 +34,7 @@ const ProductCard: React.FC<myComp> = ({ p }) =>{
                 </div>
             </div>
             <div className="mt-2">
-                <strong className="text-xl p-2">$105.03</strong>
+                <strong className="text-xl p-2">$105000.03</strong>
             </div>
             <div className="p-2 flex items-center text-cente gap-3 font-medium pb-8">
              <svg width="50" height="50" viewBox="0 0 1024 1024">
