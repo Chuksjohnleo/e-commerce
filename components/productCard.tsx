@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import demoProduct from './assets/favicon.jpg';
+import demoProduct from './assets/houses/vu-anh-TiVPTYCG_3E-unsplash.jpg';
 
 interface myComp {
     p: number

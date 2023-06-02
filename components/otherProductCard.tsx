@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import demoProduct from './assets/favicon.jpg';
+import demoProduct2 from './assets/houses/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg';
+import demoProduct3 from './assets/houses/todd-kent-178j8tJrNlc-unsplash.jpg';
+import demoProduct4 from './assets/houses/vu-anh-ThyBKNya1yY-unsplash.jpg';
+import demoProduct5 from './assets/houses/lena-polishko-CSAIu_LsGLY-unsplash.jpg';
+import demoProduct6 from './assets/houses/vu-anh-TiVPTYCG_3E-unsplash.jpg';
 
 interface myComp {
     p: number
@@ -10,7 +15,7 @@ const OtherProductCard: React.FC = () =>{
     
     return(
         <>
-         <div className="flex lg:col-span-2 lg:row-span-2 col-span-2 justify-center items-end mx-1 xSm:h-[300px] lg:h-[520px] shadow-xl rounded-2xl relative bg-yellow-800">
+         <div className="flex lg:col-span-2 lg:row-span-2 xSm:col-span-2 justify-center items-end mx-1 xSm:h-[300px] lg:h-[520px] shadow-xl rounded-2xl relative bg-yellow-800">
            <div className="absolute text-white flex flex-col z-30 backdrop-blu p-2 w-full m-3">
              <div>
                <strong className="text-[16.1px] sm:text-3xl"> The first deal </strong>
@@ -24,7 +29,7 @@ const OtherProductCard: React.FC = () =>{
              <p>{`Located in No. 1 Obodoma, Igboland`}</p>
             </div>
            </div>
-           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct} alt="demo deal" height={200} width={200} />
+           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct2} alt="demo deal" height={200} width={200} />
          </div>
 
          <div className="flex lg:col-span-1 row-span-2 sepia-0 justify-center items-end mx-1 xSm:h-[520px] shadow-xl rounded-2xl relative bg-yellow-800">
@@ -41,7 +46,7 @@ const OtherProductCard: React.FC = () =>{
              <p>{`Located in No. 1 Obodoma, Igboland`}</p>
             </div>
            </div>
-           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct} alt="demo deal" height={200} width={200} />
+           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct3} alt="demo deal" height={200} width={200} />
          </div>
 
          <div className="flex sepia-0 justify-center items-end mx-1 xSm:h-[250px] shadow-xl rounded-2xl relative bg-yellow-800">
@@ -58,7 +63,7 @@ const OtherProductCard: React.FC = () =>{
              <p>{`Located in No. 1 Obodoma, Igboland`}</p>
             </div>
            </div>
-           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct} alt="demo deal" height={200} width={200} />
+           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct4} alt="demo deal" height={200} width={200} />
          </div>
 
          <div className="flex sepia-0 justify-center items-end mx-1 xSm:h-[250px] shadow-xl rounded-2xl relative bg-yellow-800">
@@ -75,7 +80,7 @@ const OtherProductCard: React.FC = () =>{
              <p>{`Located in No. 1 Obodoma, Igboland`}</p>
             </div>
            </div>
-           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct} alt="demo deal" height={200} width={200} />
+           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct5} alt="demo deal" height={200} width={200} />
          </div>
 
          <div className="flex sepia-0 justify-center items-end mx-1 xSm:h-[250px] shadow-xl rounded-2xl relative bg-yellow-800">
@@ -92,7 +97,7 @@ const OtherProductCard: React.FC = () =>{
              <p>{`Located in No. 1 Obodoma, Igboland`}</p>
             </div>
            </div>
-           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct} alt="demo deal" height={200} width={200} />
+           <Image className="object-cover rounded-2xl w-full h-full" src={demoProduct6} alt="demo deal" height={200} width={200} />
          </div>
 
          <div className="flex sepia-0 justify-center items-end sm:mx-1 h-[250px] shadow-xl rounded-2xl relative bg-yellow-800">

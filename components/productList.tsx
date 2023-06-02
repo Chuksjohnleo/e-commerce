@@ -5,7 +5,7 @@ const ProductList: React.FC = () =>{
     const [products, setProducts] = useState<number[]>([]);
 
     const arr: number[] = [];
-    for(let i: number = 0; i<2; i++){
+    for(let i: number = 0; i<6; i++){
         arr.push(i);
     }
     
