@@ -12,10 +12,10 @@ const Footer: React.FC = () =>{
              </h1>
            <div className="flex flex-col sm:flex-row-reverse justify-around">
            <div className="flex flex-col flex-1">
-            <div className="flex justify-around my-3 w-full items-center self-center">
-             <Link className="underline" href='/about-us'> Privacy policy </Link>
-             <Link className="underline" href='/about-us'> About </Link>
-             <Link className="underline" href='/about-us'> Terms and conditions </Link>
+            <div className="flex justify-around my-3 w-full items-center self-center text-center">
+             <Link className="underline m-3" href='/about-us'> Privacy policy </Link>
+             <Link className="underline m-3 flex-1" href='/about-us'> About </Link>
+             <Link className="underline m-3" href='/about-us'> Terms and conditions </Link>
             </div>
             <div className="flex justify-around w-ful w-[50%] self-center">
              <div>

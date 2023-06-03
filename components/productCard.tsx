@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 import demoProduct from './assets/houses/vu-anh-TiVPTYCG_3E-unsplash.jpg';
 
 interface myComp {
@@ -53,8 +54,11 @@ const ProductCard: React.FC<myComp> = ({ p }) =>{
                   <span className="lin"> Light </span>
                 </div>
             </div>
-            <div className="mt-2">
+            <div className="mt-2 flex justify-between xSm:flex-row flex-col items-center">
                 <strong className="text-xl p-2">$105000.03</strong>
+                <Link href='/view-details/id' className="py-1 text-white ml-0 bg-yellow-800 px-6 rounded-md m-3 inline-block">
+                  More details
+                </Link>
             </div>
             <div className="p-2 font-medium pb-8 flex items-center gap-1">
               <svg fill="#000000" width='20' height='20' viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
