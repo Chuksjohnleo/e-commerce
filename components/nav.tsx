@@ -41,17 +41,17 @@ const Nav: React.FC = () =>{
       <div className='hidden sm:flex justify-around gap-1 text-[13px] sm:gap-9 xSm:text-[16.1px] font-semibold'>
         <div>
          <Link href='/'>
-          Link1
+          About
          </Link>
         </div>
         <div>
          <Link href='/'>
-           Link2
+           Booked
          </Link>
         </div>
         <div>
          <Link href='/'>
-           Link3
+           Pricing
          </Link>
         </div>
       </div>
